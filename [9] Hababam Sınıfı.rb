@@ -3,13 +3,13 @@
 ###############
 ## Variables ##
 ###############
-use_bpm 144
+use_bpm 144  ## Müziğin hızını ayarlar.
 #########################################
 
-###############
-## Functions ##
-###############
-
+##############
+#Fonksiyonlar#
+##############
+# Bazı fonksiyonlar tanımlanarak tekrarlanacak olan kod azaltılıyor.
 define:lead do |note, time|
   with_fx :reverb do
     use_synth :pretty_bell
@@ -27,7 +27,7 @@ define:akor do |root, mode, time|
 end
 
 #############################################
-
+#Şarkının akorları
 ##########
 ##Chords##
 ##########
@@ -85,7 +85,7 @@ in_thread do
   end
 end
 ############################################
-
+#Şarkının Ezgisi
 #########
 ##Leads##
 #########
