@@ -1,8 +1,8 @@
-## Variables ##
-bpm = 120
-beat = 0.5
+## Değişkenler ##
+use_bpm = 120 # Müziğin hızını ayarlıyor
 
-## Functions ##
+
+## Fonksiyonlar ##
 define :saz do |note, time|
   
   use_synth :saw
@@ -22,22 +22,22 @@ end
 in_thread do
   loop do
     2.times do
-      akor :a3, :min , 4*beat
-      akor :g3, :maj , 2*beat
-      akor :a3, :min , 2*beat
-      akor :c3, :maj , 2*beat
-      akor :g3, :maj , 2*beat
-      akor :a3, :min , 4*beat
+      akor :a3, :min , 4
+      akor :g3, :maj , 2
+      akor :a3, :min , 2
+      akor :c3, :maj , 2
+      akor :g3, :maj , 2
+      akor :a3, :min , 4
     end
-    akor :g3, :maj , 4*beat
-    akor :d3, :maj , 4*beat
-    akor :a3, :min , 4*beat
-    akor :d3, :maj , 4*beat
-    akor :a3, :min , 4*beat
-    akor :g3, :maj , 4*beat
-    akor :f3, :maj , 2*beat
-    akor :g3, :maj , 2*beat
-    akor :a3, :min , 4*beat
+    akor :g3, :maj , 4
+    akor :d3, :maj , 4
+    akor :a3, :min , 4
+    akor :d3, :maj , 4
+    akor :a3, :min , 4
+    akor :g3, :maj , 4
+    akor :f3, :maj , 2
+    akor :g3, :maj , 2
+    akor :a3, :min , 4
   end
 end
 
@@ -46,12 +46,12 @@ loop do
   2.times do
     #bar1#
     sleep beat
-    saz :c5, beat/2
-    saz :d5, beat/2
-    saz :d5, beat
-    saz :c5, beat/4
-    saz :b4, beat/4
-    saz :a4, beat/2
+    saz :c5, 0.5
+    saz :d5, 0.5
+    saz :d5, 1
+    saz :c5, 0.25
+    saz :b4, 0.25
+    saz :a4, 0.5
     #bar2#
     saz :c5, beat/2
     saz :b4, beat
