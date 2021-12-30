@@ -1,7 +1,7 @@
 # Proj201_SonicPi1
 Turkish tutorial of Sonic Pi for use in primary education
 
-This tutorial is done for PROJ 201 Class.
+This tutorial is done for PROJ 201 Class. Supervised by Dr. Kamer Kaya.
 
 [1 - Giriş](https://github.com/Nazonal/Proj201_SonicPi1/blob/master/%5B1%5D%20GI%CC%87RI%CC%87S%CC%A7.pdf)
 
